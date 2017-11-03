@@ -21,7 +21,7 @@
                         echo 'WP !';
                     }
                     else{
-                        echo 'you suck !';
+                        echo 'Nope !';
                     }
                 ?>
             </div>
