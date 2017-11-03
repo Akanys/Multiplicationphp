@@ -1,0 +1,177 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('motif.jpg');
+    font-weight: bold;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 5px 25px 30px 25px;
+    margin-top: 10vh;
+}
+
+form{
+    padding-top:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    background-color: #21211F;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+    color: #5c5fee;
+    margin-bottom:0;
+    padding: 10px 0;
+}
+
+p{
+    display:inline;
+}
+
+select{
+    margin-left:-1px;
+    background-color: #21211F;
+    color: #fff;
+    border-radius: 25px 0 0 25px;
+    padding: 3px 15px 3px 15px;
+    font-size: 20px;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+button.midbutton{
+    font-size: 20px;
+    border: none;
+    background-color: #5c5fee;
+    color: #fff;
+    padding: 4px 10px 4px 7px;
+    border-radius: 0 25px 25px 0;
+}
+
+button.midbutton:hover{
+    padding: 2px 8px 2px 5px;
+    border:2px solid #21211F;
+}
+
+button.checkbutton{
+    font-size: 20px;
+    border: none;
+    background-color: #5c5fee;
+    color: #fff;
+    padding: 49px 15px 49px 10px;
+    border-radius: 0 25px 25px 0;
+}
+
+button.checkbutton:hover{
+    padding: 47px 13px 47px 8px;
+    border:2px solid #21211F;
+}
+
+.multicheckedr{
+    padding: 12px 15px 10px 15px;
+    color: #fff;
+    background-color: #21211F;
+}
+
+.multicheckedl{
+    padding: 12px 15px 10px 15px;
+    border-radius: 25px 0 0 25px;
+    color: #fff;
+    background-color: #21211F;
+}
+
+input.check{
+    margin-right:10px;
+}
+
+.multiposition{
+    padding-top:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.results{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.multimultiple{
+    padding: 15px 35px 15px 35px;
+    color: #fff;
+    background-color: #21211F;
+    border-radius: 25px;
+    margin: 25px 30px;
+}
+
+a{
+    text-decoration: none;
+    color:#5c5fee;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#questioninput{
+    border:none;
+    background-color: #21211F;
+    padding: 15px 35px 15px 35px;
+    border-radius: 25px 0 0 25px;
+    color: #fff;
+}
+
+.questionbutton{
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: #5c5fee;
+    color: #fff;
+    padding: 10px 10px 11px 7px;
+    border-radius: 0 25px 25px 0;
+}
+
+.questionbutton:hover{
+    padding: 8px 8px 9px 5px;
+    border:2px solid #21211F;
+}
+
+#validmultiple{
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-color: #5c5fee;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: 2px solid #fff;
+}
+
+#validmultiple:hover{
+    border: 2px solid #21211F;
+}
+
+.mulplicationquestion{
+    padding: 5px 15px 5px 20px;
+    color: #fff;
+    background-color: #21211F;
+    border-radius: 25px 0 0 25px;
+}
+
+.inputmultiquestion{
+    border:none;
+    padding: 7px 15px 6px 20px;
+    color: #fff;
+    background-color: #21211F;
+    border-radius: 0 25px 25px 0;
+}
